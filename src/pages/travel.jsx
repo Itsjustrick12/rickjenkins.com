@@ -1,9 +1,12 @@
+import { UnderConstruction } from "../components/UnderConstruction"
+
 export function Travel(){
     return (
-        <>
+        <div align="center">
             <h1>
-                This is the Travel Page
+                Travel
             </h1>
-        </>
+            <UnderConstruction/>
+        </div>
     )
 }

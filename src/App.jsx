@@ -8,6 +8,7 @@ import { Layout } from './components/Layout'
 
 /* Hash router is what is needed to make the routing environment */
 /* Router is where we specify the routes */
+/* Multiple Pages Video Reference: https://www.youtube.com/watch?v=qi32YwjoN2U */
 function App() {
   return (
     <Router>

@@ -1,9 +1,11 @@
+import { UnderConstruction } from "../components/UnderConstruction"
 export function Hobbies(){
     return (
-        <>
+        <div align="center">
             <h1>
-                This is the Hobbies Page
+                Hobbies
             </h1>
-        </>
+            <UnderConstruction/>
+        </div>
     )
 }

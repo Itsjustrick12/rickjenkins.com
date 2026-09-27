@@ -29,7 +29,11 @@ export function Home(){
             of gaining back "free time" that quickly converts to some unproductive habit. This website is for me, but I hope you see the fruits of my labor as
             I fall back in love with teaching myself things again. Thanks for checking out the site!
           </p>
-        
+
+          <div class="alert alert-primary" role="alert">
+            Check out the new Blog Tab! The others are empty :)
+          </div>
+          
           <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', marginTop:25,  marginRight: 500, marginLeft: 250}}></div>
             <h2 align="center">A Gift For You:</h2>
             <div class="image-container">
@@ -39,9 +43,6 @@ export function Home(){
               As a reward for you being early, you get to look at this picture of young me posing like a little 🏳️‍🌈 boy.
             </p>
           </div>
-        <div class="alert alert-primary" role="alert">
-          This site is NOT done yet! Stay tuned for further updates :)
-        </div>
 
         <ListGroup align="center"></ListGroup>
 
