@@ -2,7 +2,7 @@ import emoji from '../assets/ConstructionEmoji.jpg'
 
 export function UnderConstruction (){
     return (
-        <div align="center">
+        <div>
             <h3>
                 This Page is UNDER CONSTRUCTION!
             </h3>

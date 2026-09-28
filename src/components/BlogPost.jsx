@@ -1,4 +1,5 @@
 import ReactMarkdown from 'react-markdown'
+import { BlogImage } from './BlogImage'; //Supports custom formatting for various image types parsing alt data
 
 // Allows the use of file searching and results
 // The ?raw means "give me the file contents exactly"
@@ -15,8 +16,12 @@ function BlogPost({ file }) {
     const markdown = posts[`../posts/${file}.md`];
 
     return (
-        <article>
-            <ReactMarkdown>
+        <article className="blog-post">
+            <ReactMarkdown
+                components={{
+                    img: BlogImage
+                }}
+            >
                 {markdown}
             </ReactMarkdown>
         </article>

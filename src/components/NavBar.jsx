@@ -15,6 +15,9 @@ export function NavBar (){
             <Link to="/blog">
                 <button>Blog</button>
             </Link>
+            <Link to="/typography">
+                <button>Typography</button>
+            </Link>
         </>
     )
 }

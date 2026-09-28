@@ -3,6 +3,8 @@ import { Home } from './pages/home'
 import { Travel } from './pages/travel'
 import { Hobbies } from './pages/hobbies'
 import { Blog } from './pages/blog'
+import { Typography } from './pages/typography'
+
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import { Layout } from './components/Layout'
 
@@ -20,6 +22,7 @@ function App() {
           <Route path="/Travel" element={<Travel/>}/>
           <Route path="/Hobbies" element={<Hobbies/>}/>
           <Route path="/Blog" element={<Blog/>}/>
+          <Route path="/Typography" element={<Typography/>}/>
         </Route>
       </Routes>
     </Router>
