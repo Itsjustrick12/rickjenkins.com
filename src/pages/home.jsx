@@ -26,7 +26,7 @@ export function Home(){
         <section className='content-box-tall-rect'>
           <h2>A Gift For You:</h2>
           <div className='image-container'>
-            <img src={freaky} alt="freaky individual" width="50%"/>
+            <img src={freaky} alt="freaky individual" width="60%"/>
           </div>
           <p>
             As a reward for you being early, you get to look at this picture of young me acting fruity.
