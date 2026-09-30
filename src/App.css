@@ -94,44 +94,36 @@
   --jk-cream: #f2f2da;
 
   --color-background: var(--jk-navy-100);
-  --color-surface: var(--jk-cream-100);
+  --color-surface: transparent;
+  --color-surface-hover: var(--jk-brown-300);
 
   --color-text: var(--jk-cream);
-  --color-text-muted: var(--jk-gray-100);
+  --color-text-muted: var(--jk-beige-200);
 
-  --color-primary: var(--jk-cyan-200);
-  --color-primary-hover: var(--jk-blue-100);
+  --color-primary: var(--jk-cream);
+  --color-primary-hover: var(--jk-beige-200);
 
-  --color-accent: var(--jk-yellow-100);
+  --color-accent: var(--jk-brown-100);
 
   --color-success: var(--jk-green-300);
   --color-danger: var(--jk-red-100);
 
-    --text-xs: 0.75rem;   /* 12px */
-    --text-sm: 0.875rem;  /* 14px */
-    --text-md: 1rem;      /* 16px */
-    --text-lg: 1.125rem;  /* 18px */
-    --text-xl: 1.25rem;   /* 20px */
+  --text-xs: 0.75rem;   /* 12px */
+  --text-sm: 0.875rem;  /* 14px */
+  --text-md: 1rem;      /* 16px */
+  --text-lg: 1.125rem;  /* 18px */
+  --text-xl: 1.25rem;   /* 20px */
 
-    --text-2xl: 1.5rem;   /* 24px */
-    --text-3xl: 1.875rem; /* 30px */
-    --text-4xl: 2.25rem;  /* 36px */
-    --text-5xl: 3rem;     /* 48px */
-}
-
-/* Use a . for the class declaration */
-.page-container {
-  padding-left:5rem;
-  padding-right:5rem;
-  padding-bottom:3rem;
-  padding-top:3rem;
-  width: 100%;
+  --text-2xl: 1.5rem;   /* 24px */
+  --text-3xl: 1.875rem; /* 30px */
+  --text-4xl: 2.25rem;  /* 36px */
+  --text-5xl: 3rem;     /* 48px */
 }
 
 .content-box-square {
   grid-column: span 1;
   grid-row: span 1;
-
+  background-color: var(--color-surface);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -157,6 +149,7 @@
   align-items: center;
   justify-content: flex-start;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .content-box-wide-rect {
@@ -183,43 +176,94 @@
   justify-content: center;
 }
 
+.NavBar {
+  position: -webkit-sticky; /* Support for Safari */
+  position: sticky;
+  top: 0;
+}
+
+.NavBar ul{
+  background-color: var(--jk-cream);
+  display: flex;
+  align-content: flex-start;
+  list-style-type: none; /*Removes Bullet Points*/
+  overflow: hidden;
+  padding: 0;
+  margin: 0rem;
+  border-bottom: 0.25rem solid var(--jk-beige-200);
+}
+
+.NavBar li{
+  float: left;
+  background-color: transparent;
+}
+
+.NavBar a{
+  color:  var(--jk-gray-300);
+  text-decoration: none;
+  padding: var(--text-xs);
+  display: block;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.NavBar a:hover{
+  color: var(--jk-gray-400);
+  background-color: var(--jk-beige-200);
+}
+
 body {
   background-color: var(--color-background);
   color: var(--color-text);
+  margin: 0;
+}
+
+main {
+  margin: 2rem 5rem 4rem;
 }
 
 h1 {
-  color: var(--jk-cream-100);
+  color: var(--color-text);
   font-size: var(--text-5xl);
   line-height: 1.1;
   font-weight: 700;
 }
 
 h2 {
-  color: var(--jk-cream-100);
+  color: var(--color-text);
   font-size: var(--text-4xl);
   line-height: 1.2;
   font-weight: 600;
 }
 
 h3 {
-  color: var(--jk-cream-100);
+  color: var(--color-text);
   font-size: var(--text-3xl);
   line-height: 1.3;
   font-weight: 600;
 }
 
-
 p {
-  color: var(--jk-cream-100);
-  font-size: 1.25rem;
+  color: var(--color-text);
+  font-size: var(--text-xl);
   line-height: 1.6;
   max-width: 90ch;
-  font-weight: 400;
 }
 
 a {
-  color: var(--jk-blue-100)
+  color: var(--color-primary);
+}
+
+a:hover {
+  color: var(--color-primary-hover);
+}
+
+li{
+  color: var(--color-text);
+  font-size: var(--text-xl);
+  line-height: 1.6;
+  max-width: 90ch;
 }
 
 margin-box {
@@ -228,11 +272,148 @@ margin-box {
 
 .list-group-item {
   background-color: var(--color-surface);
-  color: var(--color-surface);
-  border-color: var(--color-surface);
+  color: var(--color-text);
+  border-color: var(--jk-cream);
 }
 
+/* Blog Post Formatting */
+
 .blog-post {
-  border: 0.25rem solid var(--jk-cream);
-  padding: 2rem;
+  border: 0.5rem solid var(--jk-cream);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.blog-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Here for Grid Compliance */
+
+.blog-card-box {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: var(--color-surface);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* Actual Content Styling */
+
+.blog-card {
+  border: 0.5rem solid var(--jk-cream);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.blog-card p {
+  color: var(--jk-navy-100)
+}
+
+.blog-card h2 {
+  margin-top: 0;
+}
+
+.blog-card h1 {
+  margin-top: 0;
+}
+
+.blog-card img {
+  width: 450px;
+  height: 450px;
+  object-fit: cover; /* Crops the image to fit the 300x300 box without stretching */
+  border: 0.5rem solid var(--jk-navy-100);
+  border-radius: 0.75rem;
+}
+
+.blog-page-container {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.blog-card {
+  background-color: var(--jk-cream);
+  display: flex;
+  align-content: flex-start;
+  list-style-type: none; /*Removes Bullet Points*/
+  overflow: hidden;
+  padding: 0;
+  margin: 0rem;
+}
+
+.blog-card h2{
+  color: var(--jk-navy-100);
+}
+
+.blog-card p{
+  color: var(--jk-navy-100);
+}
+
+.blog-button {
+    display: flex;
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.25rem;
+    background-color: var(--jk-navy-100);
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0.25rem;
+}
+
+/* For Mobile View Scaling */
+@media (max-width: 768px) {
+  main {
+    margin: 1rem;
+  }
+
+  /* Change to be one column only */
+  .section-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  /* One column */
+  .content-box-tall-rect {
+    grid-column: 1;
+    grid-row: auto;
+  }
+  /* One Column */
+  .content-box-wide-rect {
+    grid-column: 1;
+  }
+
+  /* Shrink Text Too */
+  h1 {
+    font-size: var(--text-4xl);
+  }
+
+  h2 {
+    font-size: var(--text-3xl);
+  }
+
+  h3 {
+    font-size: var(--text-2xl);
+  }
+
+  .blog-post {
+    border: 0.25rem solid var(--jk-cream);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
 }
