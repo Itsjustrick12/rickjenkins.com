@@ -7,7 +7,7 @@ import { Typography } from './pages/typography'
 
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import { Layout } from './components/Layout'
-import { BlogPostPage } from './pages/blogpostpage'
+import { BlogPostPage } from './pages/BlogPostPage'
 
 /* Hash router is what is needed to make the routing environment */
 /* Router is where we specify the routes */
