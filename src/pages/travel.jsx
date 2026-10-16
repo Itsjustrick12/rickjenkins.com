@@ -2,7 +2,7 @@ import { getAllPicturesByAlbum } from "../components/Blog/pictures"
 import { UnderConstruction } from "../components/UnderConstruction"
 
 export function Travel(){
-    const pics = getAllPicturesByAlbum('ABC');
+    const bostonPics = getAllPicturesByAlbum('Boston');
 
     return (
         <div className="page-container">
@@ -13,10 +13,18 @@ export function Travel(){
                 {/* <UnderConstruction/> */}
             </div>
 
-            <section>
-                {pics.map((url, index) => (
+            <h1>
+                Boston & Vermont Oct 2026
+            </h1>
+            <h2>
+                Sofie's Digi Pics:
+            </h2>
+            <section className="travel-gallery">
+                {bostonPics.map((url, index) => (
                     // <p key={url}>{url}</p>
-                    <img key={url} src={url} alt={`Album photo ${index + 1}`} loading="lazy"  />
+                    <div className="album-image">
+                        <img key={url} src={url} alt={`Album photo ${index + 1}`} loading="lazy"  />
+                    </div>
                 ))}
             </section>
         </div>

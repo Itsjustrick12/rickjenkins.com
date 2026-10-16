@@ -1,5 +1,5 @@
 // Locate the markdown files
-const pics = import.meta.glob('/src/assets/photo_albums/**/*.{png,jpg,jpeg}', {
+const pics = import.meta.glob('/src/assets/photo_albums/**/*.{png,jpg,jpeg,JPG}', {
     query: '?url',
     import: 'default',
     eager: true
