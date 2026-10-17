@@ -7,7 +7,7 @@ thumbnail: ../blog/FirstPost/monkey.png
 
 #  My Favorite Monkey:
 
-![Monkey Profile Picture](/blog/FirstPost/monkey.png)
+![center|A picture of my old profile picture|](/blog/FirstPost/monkey.png)
 
 This is a picture of a Golden snub-nosed monkey. He has often been my profile picture on several social platforms like discord and github. If I used instagram or other socials he'd probably be my picture there too.
 
@@ -24,5 +24,5 @@ Coolest Facts:
 
 I have a bucket list item that says I have to go to china and see one in person. Check out [this video](https://www.youtube.com/watch?v=UkCbehpGBME) to see him in action. He's a grubby little guy, and I really like him. Like specifically this one. The other ones aren't nearly as fat and greedy as this specific guy. He doesn't even say thank you.
 
-![Other Monkey](/blog/FirstPost/PogMonkey.jpg)
+![left|Here is another image of the monkeys, looking a bit less greedy|](/blog/FirstPost/PogMonkey.jpg)
 
