@@ -5,7 +5,7 @@ date: 2026/10/23
 thumbnail: ../blog/KOHF/KOHFCD.png
 ---
 
-![center](blog\KOHF\Graduation.JPEG)
+![center](blog/KOHF/Graduation.JPEG)
 
 ## One Significant Day
 
@@ -19,7 +19,7 @@ The video first emphasizes the importance of the small joys that make us feel go
 
 **If you'll indulge me, and you have 23 minutes, please watch [the video](https://www.youtube.com/watch?v=s7ASoHd_zE4) from the start to the VERY end**, then come back to read the rest of this post. It's an excellent feel good video to put on your second monitor and watch while you do something else. As you can imagine, that's how I was "watching" it.
 
-![center](blog\KOHF\VideoThumbail.png)
+![center](blog/KOHF/VideoThumbail.png)
 
 ## An Unexpected Song
 
@@ -30,7 +30,7 @@ What the video doesn't tell you is that by the time you reach little thing #82, 
 ### King of Having Fun
 Nicholas Carpenter (Medium Build)
 
-![left](blog\KOHF\KOHFOfficialArt.jpg)
+![left](blog/KOHF/KOHFOfficialArt.jpg)
 
 **Verse 1**
 
@@ -69,12 +69,12 @@ He's gonna savе up that ***allowance*** and find somebody to kiss
 
 Hearing the single word "allowance" mentally transported me back to the times when my parents would take Will, Jamie, and I down the street to the Toys R Us in Ventura, California. In that store, we'd each get to pick out one small Lego set or toy, or choose to pool our sets into one bigger one to share. At the time, that young Rick at that Toys R Us wasn't thinking about anything but the brightly colored yellow boxes on the shelves in front of him. 
 
-![center|A photo me, my mom, my siblings, and our brand new dog Oreo. The photo was taken in January of 2023, 6 months before we moved to Maryland.](\blog\KOHF\CaliforniaWithOreo.jpg)
+![center|A photo me, my mom, my siblings, and our brand new dog Oreo. The photo was taken in January of 2023, 6 months before we moved to Maryland.](/blog/KOHF/CaliforniaWithOreo.jpg)
 
 Even at 22 years of age, I could picture exactly where the section for the Legos was in that Toys R Us. They were right past the Fabio Schwartz bins with the funny Monkey and other animal plushies, where else would they be? Though that Toys R Us likely isn't standing today, the memory of those sweet moments spent with my siblings and parents hit me with the weight of every brick that was used to build that store that no longer exists.
 
 
-![center|An actual picture of my childhood Ventura Toys R Us Lego Section, taken the day the store permanantly closed for business in June of 2018.](\blog\KOHF\VenturaToysRUs.webp)
+![center|An actual picture of my childhood Ventura Toys R Us Lego Section, taken the day the store permanantly closed for business in June of 2018.](/blog/KOHF/VenturaToysRUs.webp)
 
 
 That last line I included above is what broke the tough facade and confidence I had been building over the past two years. I had somehow convinced myself that I was excited about leaving the comfort and amazing environment of university, I was excited to start working full time, and that I was fully ready to live in a city an hour and fifteen minutes away from some of my closest friends and family.
@@ -91,7 +91,7 @@ In the song, Nick sings about his difficulties with substance abuse / self media
 
 It is for the reasons listed above that my girlfriend Sofie and I found ourselves at Medium Build's concert on the evening of Saturday, October 10th, 2026 in Boston, Massachusetts, 414 miles from my apartment. We hadn't planned our trip to Boston around the concert, it just happened to be an amazing coincidence that Medium Build's tour lined up perfectly with the dates we were planning to be in the city. We were originally going to go to a Celtics game that was 3x the cost of the tickets to the concert, and I am so grateful we pivoted our plans, for both my wallet and ability to tell you about one of my favorite experiences with live music.
 
-![center|A picture of Sofie and I taken in the Boston Metro after a full day of adventuring and coming back from the KOHF concert](\blog\KOHF\Concert.JPG)
+![center|A picture of Sofie and I taken in the Boston Metro after a full day of adventuring and coming back from the KOHF concert](/blog/KOHF/Concert.JPG)
 
 If you couldn't guess, the concert was INCREDIBLE, as Nick possesses an amazing stage presence, vocal range, and intensity you won't find in many other artists in his genres. I've been to amazing concerts before, but none that have put the lead performer's emotion and vulnerability on full display like this one did. The concert (and more specifically the album) featured a set list that had me jumping up and down, having a great time, AND full on messy crying in a massive group of people who were all experiencing the same tender moments. I imagine that's why I found myself with streaks down my cheeks and a massive smile on my face by the end of the show.
 
@@ -105,4 +105,4 @@ If you read this whole post, watched the Speeed video, or listened to the album 
 
 Now, go back to doing whatever you are trying to distract yourself from by reading this. Check in with yourself first, allow yourself time to feel anything you've been numbing out, and prioritize your enjoyment of life in all that you do. Thanks again for your time!
 
-![center|A picture of me trying to turn my life around by riding my bike for the first time in years. This was taken on August 9th, 2026, shortly after recovering from my first listen of King Of Having Fun.](\blog\KOHF\BikeAug92026.JPEG)
+![center|A picture of me trying to turn my life around by riding my bike for the first time in years. This was taken on August 9th, 2026, shortly after recovering from my first listen of King Of Having Fun.](/blog/KOHF/BikeAug92026.JPEG)
