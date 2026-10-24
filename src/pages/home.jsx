@@ -22,7 +22,7 @@ export function Home(){
         <section className='content-box-square'>
           <h2>Why Not Just Use Social Media?</h2>
           <p>
-            I am starting this site to have a fun way to update my friends on what I've been up to. Many people mat think that I'm 
+            I am starting this site to have a fun way to update my friends on what I've been up to. Many people might think that I'm 
             "anti social media," but the truth is I just have no self control when it comes to short form content. 
           </p>
           <p>

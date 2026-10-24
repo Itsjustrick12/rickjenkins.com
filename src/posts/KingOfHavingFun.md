@@ -95,6 +95,8 @@ It is for the reasons listed above that my girlfriend Sofie and I found ourselve
 
 If you couldn't guess, the concert was INCREDIBLE, as Nick possesses an amazing stage presence, vocal range, and intensity you won't find in many other artists in his genres. I've been to amazing concerts before, but none that have put the lead performer's emotion and vulnerability on full display like this one did. The concert (and more specifically the album) featured a set list that had me jumping up and down, having a great time, AND full on messy crying in a massive group of people who were all experiencing the same tender moments. I imagine that's why I found myself with streaks down my cheeks and a massive smile on my face by the end of the show.
 
+![center](blog/KOHF/PostConcert.jpg)
+
 At the concert, I bought the physical CD for the album, and I've been playing it on my mom's big bulky CD player whenever I clean my apartment or play board games with Sofie. We've both grown to love every song on the album, but my personal favorites would have to be (in no particular order): Do Something Productive, Armor, Feed the Boys, Cone Off, and of course, King of Having Fun. That's not to say the other songs aren't good. I would argue that there isn't a bad song on the album, and the concert made me appreciate each and every one that little bit more.
 
 ![center|A picture of the aforementioned CD player, the KOHF CD, and my favorite Target bird Sofie has bought, "Vestie."](/blog/KOHF/CDPlayer.JPEG)
