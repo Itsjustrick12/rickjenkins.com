@@ -14,6 +14,14 @@ export function Home(){
           className="home-hero-image"
         />
       </section>
+      <p style={{
+        textAlign: "center",
+        maxWidth: "1600px",
+        margin: "1.5rem auto"
+      }}>
+        Hello! I'm Rick Jenkins. This is my personal website I use for updating the people in my circles about my life and sharing about my interests and experiences. Don't expect to find portfolio tier content here. If you're looking for that kind of stuff, go look at my Linkedin or Github!
+      </p>
+
       {/* Primary Content divider */}
       <div> 
       

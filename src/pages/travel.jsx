@@ -5,7 +5,7 @@ export function Travel(){
     const bostonPics = getAllPicturesByAlbum('Boston');
 
     return (
-        <div className="travel-page-container">
+        <div className="page-container">
             <div className="center-everything">
                 <h1>Travel</h1>
                 <h1>Boston & Vermont Oct 2026</h1>
