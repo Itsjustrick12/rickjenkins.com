@@ -1,11 +1,9 @@
 ---
 type: random
 title: My Favorite Monkey
-date: 2026-09-25
+date: 2026/09/25
 thumbnail: ../blog/FirstPost/monkey.png
 ---
-
-#  My Favorite Monkey:
 
 ![center|A picture of my old profile picture|](/blog/FirstPost/monkey.png)
 

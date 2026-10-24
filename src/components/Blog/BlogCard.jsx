@@ -17,7 +17,7 @@ function BlogCard({ file }) {
         <section className='blog-card'>
             <h2>{metadata.title}</h2>
             {/* <p>This file has the type: {metadata.type}</p> */}
-            <p>Date: {metadata.date}</p>
+            <p>{metadata.date}</p>
             <img src={metadata.thumbnail}/>
             
             <div>

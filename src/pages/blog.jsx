@@ -8,7 +8,7 @@ export function Blog(){
     return (
         <div className="page-container">
             <div className="center-everything">
-                <h1>Blog Page</h1>
+                <h1>Blog Posts</h1>
                 <p></p>
             </div>
 
