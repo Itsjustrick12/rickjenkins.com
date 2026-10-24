@@ -13,7 +13,7 @@ If I could use a single day to sum up my recent thoughts and feelings about life
 
 ## Little Things That Make Life Good
 
-While you might expect the video to have belonged to the typical "How to Fix Your Life" or "Why you are miserable" content categorization we all seem to watch, it was actually a pretty unassuming video titled ["82 Little Things That Make Life Good"](https://www.youtube.com/watch?v=s7ASoHd_zE4) by the YouTuber Speeed. I've been watching Speed's videos for a while now, and this video seemed pretty run of the mill for the type of content he makes. 
+While you might expect the video to have belonged to the typical "How to Fix Your Life" or "Why you are miserable" content categorization we all seem to watch, it was actually a pretty unassuming video titled ["82 Little Things That Make Life Good"](https://www.youtube.com/watch?v=s7ASoHd_zE4) by the YouTuber Speeed (this is NOT IShowSpeed!). I've been watching Speeed's videos for a while now, and this video seemed pretty run of the mill for the type of content he makes. 
 
 The video first emphasizes the importance of the small joys that make us feel good and put that extra pep in our steps. Then, for roughly 16 minutes, Speeed literally just lists 82 things like "Weekend Matinee Movies" and "Becoming a regular somewhere." The list isn't as boring as you might think it could be, and it provides a fun way to think about some things you may have not experienced in a while that could be fun to do in the near future. 
 
@@ -69,7 +69,7 @@ He's gonna savе up that ***allowance*** and find somebody to kiss
 
 Hearing the single word "allowance" mentally transported me back to the times when my parents would take Will, Jamie, and I down the street to the Toys R Us in Ventura, California. In that store, we'd each get to pick out one small LEGO set or toy, or choose to pool our sets into one bigger one to share. At the time, that young Rick at that Toys R Us wasn't thinking about anything but the brightly colored yellow boxes on the shelves in front of him. 
 
-![center|A photo me, my mom, my siblings, and our brand new dog Oreo. The photo was taken in January of 2023, 6 months before we moved to Maryland.](/blog/KOHF/CaliforniaWithOreo.jpg)
+![center|A photo me, my mom, my siblings, and our brand new dog Oreo. The photo was taken in January of 2013, 6 months before we moved to Maryland.](/blog/KOHF/CaliforniaWithOreo.jpg)
 
 Even at 22 years of age, I could picture exactly where the LEGO section was in that Toys R Us. They were right past the Fabio Schwartz bins with the funny Monkey and other animal plushies, where else would they be? Though that Toys R Us likely isn't standing today, the memory of those sweet moments spent with my siblings and parents hit me with the weight of every brick that was used to build that store that no longer exists.
 
