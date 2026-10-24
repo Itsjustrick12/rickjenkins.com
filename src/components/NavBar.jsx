@@ -8,13 +8,16 @@ export function NavBar (){
                     <Link to="/">Home</Link>
                 </li>
                 <li>
+                    <Link to="/blog">Blog</Link>
+                </li>
+                <li>
                     <Link to="/travel">Travel</Link>
                 </li>
                 <li>
                     <Link to="/hobbies">Hobbies</Link>
                 </li>
                 <li>
-                    <Link to="/blog">Blog</Link>
+                    <Link to="/music">Music</Link>
                 </li>
             </ul>
         </div>

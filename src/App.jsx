@@ -4,6 +4,7 @@ import { Travel } from './pages/travel'
 import { Hobbies } from './pages/hobbies'
 import { Blog } from './pages/blog'
 import { Typography } from './pages/typography'
+import { Music } from './pages/music'
 
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import { Layout } from './components/Layout'
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/Travel" element={<Travel/>}/>
           <Route path="/Hobbies" element={<Hobbies/>}/>
+          <Route path="/Music" element={<Music/>}/>
           <Route path="/Blog" element={<Blog/>}/>
           <Route path="/blog/:slug" element={<BlogPostPage />} />
         </Route>

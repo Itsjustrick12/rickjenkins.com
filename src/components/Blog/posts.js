@@ -13,5 +13,12 @@ export function getPost(slug) {
 }
 // Get ALL the markdown files
 export function getAllSlugs() {
-    return Object.keys(raw).map(path => path.split('/').pop().replace('.md', ''))
+    return Object.keys(raw).map(path => path.split('/').pop().replace('.md', '')).sort((a, b) => {
+            // Get the date metadata for each post
+            const dateA = getPost(a)?.metadata?.date ?? "";
+            const dateB = getPost(b)?.metadata?.date ?? "";
+
+            // Sort newest to oldest
+            return dateB.localeCompare(dateA);
+        });
 }

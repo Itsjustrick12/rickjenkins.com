@@ -5,20 +5,12 @@ export function Travel(){
     const bostonPics = getAllPicturesByAlbum('Boston');
 
     return (
-        <div className="page-container">
-            <div align="center">
-                <h1>
-                    Travel
-                </h1>
-                {/* <UnderConstruction/> */}
+        <div className="travel-page-container">
+            <div className="center-everything">
+                <h1>Travel</h1>
+                <h1>Boston & Vermont Oct 2026</h1>
+                <h2>Sofie's Digi Pics:</h2>
             </div>
-
-            <h1>
-                Boston & Vermont Oct 2026
-            </h1>
-            <h2>
-                Sofie's Digi Pics:
-            </h2>
             <section className="travel-gallery">
                 {bostonPics.map((url, index) => (
                     // <p key={url}>{url}</p>
