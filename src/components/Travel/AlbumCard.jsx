@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { getAlbumMetadata } from './albums';
+import { getAssetPath } from '../PhotoPathHelper';
 
 function AlbumCard({ folder, coverMode }) {
     const metadata=getAlbumMetadata(folder)
@@ -12,7 +13,9 @@ function AlbumCard({ folder, coverMode }) {
         // Actually build the card using the metadata
         <section className='album-card'>
             <h3>{metadata.title}</h3>
-            <img src={thumbnail}/>
+            <img
+                src={getAssetPath(thumbnail)}
+            />
             <p>{metadata.startDate} - {metadata.endDate}</p>
             <p>{metadata.region}, {metadata.country}</p>
 

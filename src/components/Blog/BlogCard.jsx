@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { getPost } from './posts'
 import { Button } from 'bootstrap'
+import { getAssetPath } from '../PhotoPathHelper'
 
 function BlogCard({ file }) {
     //Use helper function to grab
@@ -17,7 +18,7 @@ function BlogCard({ file }) {
         <section className='blog-card'>
             <h3>{metadata.title}</h3>
             {/* <p>This file has the type: {metadata.type}</p> */}
-            <img src={metadata.thumbnail}/>
+            <img src={getAssetPath(metadata.thumbnail)}/>
             <p>{metadata.date}</p>
             
             <div>
