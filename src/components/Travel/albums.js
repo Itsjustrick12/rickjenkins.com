@@ -22,7 +22,7 @@ export function getAllPicturesByAlbum (album){
             const normalizedPath = path.toLowerCase();
 
             return normalizedPath.includes(folderName)
-                && !normalizedPath.endsWith('albumthumbnail.jpg');
+                && !normalizedPath.endsWith('thumbnail.jpg');
     })
     .filter(([path, url]) => {
         return path.toLowerCase().includes(folderName);
