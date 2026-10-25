@@ -2,9 +2,8 @@
 type: music
 title: The King of Having Fun
 date: 2026/10/24
-thumbnail: ../blog/KOHF/KOHFCD.png
+thumbnail: /blog/KOHF/KOHFCD.png
 ---
-
 ![center](blog/KOHF/Graduation.JPEG)
 
 ## One Significant Day
