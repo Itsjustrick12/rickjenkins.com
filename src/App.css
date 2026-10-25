@@ -424,14 +424,26 @@ margin-box {
 
 /* Blog and Album Page Containers */
 
-.blog-page-container,
-.album-page-container {
+.blog-page-container {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+}
+
+
+.album-page-container {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.album-page-container p {
+  max-width: 300ch;
 }
 
 /* Shared Blog and Album Button Styling */
@@ -450,7 +462,7 @@ margin-box {
   margin: 0.25rem;
 }
 
-  .blog-image-container {
+.blog-image-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -468,37 +480,19 @@ margin-box {
   box-sizing: border-box;
 }
 
-
-/* Blog Image Alignment */
-
-.blog-image-center {
-  align-self: center;
+.cover-mode-toggle {
+display: flex;
+justify-content: center;
+margin: 1rem 0;
 }
 
-.blog-image-left {
-  align-self: flex-start;
+.cover-mode-toggle button {
+background-color: var(--jk-cream);
+color: var(--jk-black);
+padding: 0.65rem 1.5rem;
+font-size: 1rem;
+font-weight: 600;
 }
-
-.blog-image-right {
-  align-self: flex-end;
-}
-
-/* Blog Image Captions */
-
-.blog-image-caption {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.blog-image-caption figcaption {
-  color: var(--color-text);
-  font-size: var(--text-lg);
-  text-align: center;
-  line-height: 1.6;
-  max-width: 90ch;
-}
-
 
 /* For Mobile View Scaling */
 @media (max-width: 768px) {

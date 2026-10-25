@@ -18,6 +18,12 @@ export function getAllPicturesByAlbum (album){
     const folderName = album.toLowerCase();
     // looking at all the pictures we can find under "/src/assets/photo_albums/", filter to only be those that include images we want
     return Object.entries(pics)
+    .filter(([path]) => {
+            const normalizedPath = path.toLowerCase();
+
+            return normalizedPath.includes(folderName)
+                && !normalizedPath.endsWith('albumthumbnail.jpg');
+    })
     .filter(([path, url]) => {
         return path.toLowerCase().includes(folderName);
     }).map(([path,url]) => url); //ONLY RETURN THE URL

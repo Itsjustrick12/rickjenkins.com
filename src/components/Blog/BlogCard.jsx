@@ -15,10 +15,10 @@ function BlogCard({ file }) {
     return (
         // Actually build the card using the metadata
         <section className='blog-card'>
-            <h2>{metadata.title}</h2>
+            <h3>{metadata.title}</h3>
             {/* <p>This file has the type: {metadata.type}</p> */}
-            <p>{metadata.date}</p>
             <img src={metadata.thumbnail}/>
+            <p>{metadata.date}</p>
             
             <div>
                 <Link to={`/blog/${file}`} className="blog-button">

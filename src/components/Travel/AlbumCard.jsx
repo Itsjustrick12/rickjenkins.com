@@ -1,13 +1,18 @@
 import { Link } from 'react-router-dom'
 import { getAlbumMetadata } from './albums';
 
-function AlbumCard({ folder }) {
+function AlbumCard({ folder, coverMode }) {
     const metadata=getAlbumMetadata(folder)
+
+    const thumbnail =
+    coverMode === 'primary'
+        ? metadata.thumbnail
+        : metadata.secondaryThumbnail;
     return (
         // Actually build the card using the metadata
         <section className='album-card'>
             <h3>{metadata.title}</h3>
-            <img src={metadata.thumbnail}/>
+            <img src={thumbnail}/>
             <p>{metadata.startDate} - {metadata.endDate}</p>
             <p>{metadata.region}, {metadata.country}</p>
 

@@ -1,18 +1,21 @@
 import { useParams } from 'react-router-dom'
 import { getAlbumContent, getAlbumMetadata, getAllPicturesByAlbum } from './albums'
-
+import ReactMarkdown from 'react-markdown'
 export function PhotoAlbumPage(){
 
     const { folder } = useParams()
     const metadata = getAlbumMetadata(folder)
-    // const content = getAlbumContent(folder)
+    const content = getAlbumContent(folder)
     const pics = getAllPicturesByAlbum(folder);
     return (
-        <div className="page-container">
+        <div className="album-page-container">
             <div className="center-everything">
                 <h1>{metadata.title}</h1>
                 <h3>{metadata.startDate} - {metadata.endDate}</h3>
             </div>
+            <ReactMarkdown>
+                {content}
+            </ReactMarkdown>
             <section className="travel-gallery">
                 {pics.map((url, index) => (
                     <div className="album-image">
