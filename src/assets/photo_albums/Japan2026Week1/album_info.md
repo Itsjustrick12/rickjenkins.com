@@ -6,7 +6,7 @@ title: Exploring Kantō
 startDate: 2026/05/25
 endDate: 2026/06/02
 thumbnail: src\assets\photo_albums\Japan2026Week1\AlbumThumbnail.JPG
-secondaryThumbnail: src\assets\photo_albums\Japan2026Week1\secondThumbnail.JPG
+secondaryThumbnail: src\assets\photo_albums\Japan2026Week1\secondThumbnail.jpg
 ---
 
 ## An Incredible Kickoff to a Month of Travel
