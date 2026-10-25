@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { getAlbumMetadata } from './albums';
-import { getAssetPath } from '../PhotoPathHelper';
+import { getAssetPath } from '../photoPathHelper';
 
 function AlbumCard({ folder, coverMode }) {
     const metadata=getAlbumMetadata(folder)

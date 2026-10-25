@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { getPost } from './posts'
 import { Button } from 'bootstrap'
-import { getAssetPath } from '../PhotoPathHelper'
+import { getAssetPath } from '../photoPathHelper'
 
 function BlogCard({ file }) {
     //Use helper function to grab
