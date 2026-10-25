@@ -1,4 +1,4 @@
-import { ParseMDFile } from './parseMDFile'
+import { ParseMDFile } from '../parseMDFile'
 
 // Locate the markdown files
 const raw = import.meta.glob('/src/posts/*.md', {

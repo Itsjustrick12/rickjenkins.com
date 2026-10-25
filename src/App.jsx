@@ -9,6 +9,7 @@ import { Music } from './pages/music'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import { Layout } from './components/Layout'
 import { BlogPostPage } from './pages/BlogPostPage'
+import { PhotoAlbumPage } from './components/Travel/PhotoAlbumPage'
 
 /* Hash router is what is needed to make the routing environment */
 /* Router is where we specify the routes */
@@ -26,6 +27,7 @@ function App() {
           <Route path="/Music" element={<Music/>}/>
           <Route path="/Blog" element={<Blog/>}/>
           <Route path="/blog/:slug" element={<BlogPostPage />} />
+          <Route path="/travel/:folder" element={<PhotoAlbumPage />} />
         </Route>
       </Routes>
     </Router>

@@ -1,4 +1,3 @@
-import { UnderConstruction } from "../components/UnderConstruction"
 import BlogCard from "../components/Blog/BlogCard"
 import { getAllSlugs } from "../components/Blog/posts"
 
@@ -9,7 +8,6 @@ export function Blog(){
         <div className="page-container">
             <div className="center-everything">
                 <h1>Blog Posts</h1>
-                <p></p>
             </div>
 
             <section className="blog-card-container">

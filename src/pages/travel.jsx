@@ -1,24 +1,22 @@
-import { getAllPicturesByAlbum } from "../components/Blog/pictures"
-import { UnderConstruction } from "../components/UnderConstruction"
+import AlbumCard from "../components/Travel/AlbumCard";
+import { getAllAlbumFolderNames } from "../components/Travel/albums";
 
 export function Travel(){
-    const bostonPics = getAllPicturesByAlbum('Boston');
-
+    const albums = getAllAlbumFolderNames()
     return (
         <div className="page-container">
             <div className="center-everything">
                 <h1>Travel</h1>
-                <h1>Boston & Vermont Oct 2026</h1>
-                <h2>Sofie's Digi Pics:</h2>
             </div>
-            <section className="travel-gallery">
-                {bostonPics.map((url, index) => (
-                    // <p key={url}>{url}</p>
-                    <div className="album-image">
-                        <img key={url} src={url} alt={`Album photo ${index + 1}`} loading="lazy"  />
-                    </div>
-                ))}
+            
+            <section className="album-card-container">
+                {albums.map(folder => {
+                    return (
+                        <div className="album-card-box" key={folder}>
+                            <AlbumCard to={`/travel/${folder}`} folder={folder}/>
+                        </div>
+                    )
+                })}
             </section>
         </div>
-    )
-}
+)}

@@ -322,6 +322,13 @@ margin-box {
   border-color: var(--jk-cream);
 }
 
+
+.page-container {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  align-items: center;
+}
+
 /* Blog Post Formatting */
 
 .blog-post {
@@ -337,7 +344,7 @@ margin-box {
 .blog-post-header {
   text-align: center
 }
-
+.album-card-container,
 .blog-card-container {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -353,7 +360,7 @@ margin-box {
 }
 
 /* Here for Grid Compliance */
-
+.album-card-box,
 .blog-card-box {
   grid-column: span 1;
   grid-row: span 1;
@@ -365,41 +372,60 @@ margin-box {
   text-align: left;
 }
 
+
+
 /* Actual Content Styling */
 
-.blog-card {
+/* Shared Blog and Album Card Styling */
+
+.blog-card,
+.album-card {
   border: 0.5rem solid var(--jk-cream);
   padding: 1.5rem;
   border-radius: 0.75rem;
   margin-bottom: 0.75rem;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   text-align: left;
+
+  background-color: var(--jk-cream);
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
-.blog-card p {
-  color: var(--jk-navy-100)
-}
-
-.blog-card h2 {
+.blog-card h1,
+.album-card h1,
+.blog-card h2,
+.album-card h2,
+.blog-card h3,
+.album-card h3 {
+  color: var(--chocolate);
   margin-top: 0;
 }
 
-.blog-card h1 {
-  margin-top: 0;
+.blog-card p,
+.album-card p {
+  color: var(--chocolate);
 }
 
-.blog-card img {
+.blog-card img,
+.album-card img {
   width: 450px;
   height: 450px;
-  object-fit: cover; /* Crops the image to fit the 300x300 box without stretching */
+  max-width: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
   border: 0.5rem solid var(--chocolate);
   border-radius: 0.75rem;
 }
 
-.blog-page-container {
+/* Blog and Album Page Containers */
+
+.blog-page-container,
+.album-page-container {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   display: flex;
@@ -408,23 +434,23 @@ margin-box {
   justify-content: flex-start;
 }
 
-.page-container {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  align-items: center;
-}
+/* Shared Blog and Album Button Styling */
 
-.blog-card {
-  background-color: var(--jk-cream);
+.blog-button,
+.album-button {
   display: flex;
-  align-content: flex-start;
-  list-style-type: none; /*Removes Bullet Points*/
-  overflow: hidden;
-  padding: 0;
-  margin: 0rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.25rem;
+  background-color: var(--chocolate);
+  font-weight: bold;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0.25rem;
 }
 
-.blog-image-container {
+  .blog-image-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -442,6 +468,9 @@ margin-box {
   box-sizing: border-box;
 }
 
+
+/* Blog Image Alignment */
+
 .blog-image-center {
   align-self: center;
 }
@@ -454,6 +483,7 @@ margin-box {
   align-self: flex-end;
 }
 
+/* Blog Image Captions */
 
 .blog-image-caption {
   display: flex;
@@ -468,26 +498,7 @@ margin-box {
   line-height: 1.6;
   max-width: 90ch;
 }
-.blog-card h2{
-  color: var(--chocolate);
-}
 
-.blog-card p{
-  color: var(--chocolate);
-}
-
-.blog-button {
-    display: flex;
-    padding: 0.3rem 0.6rem;
-    border-radius: 0.25rem;
-    background-color: var(--chocolate);
-    font-weight: bold;
-    text-decoration: none;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0.25rem;
-}
 
 /* For Mobile View Scaling */
 @media (max-width: 768px) {
@@ -523,6 +534,7 @@ margin-box {
     text-align: center;
   }
 
+
   /* Blog image alignment */
   .blog-image-left,
   .blog-image-center,
@@ -539,27 +551,30 @@ margin-box {
     padding: 0.6rem;
     font-size: var(--text-sm);
   }
-
+  .album-card-container,
   .blog-card-container {
     grid-template-columns: minmax(0, 1fr);
     gap: 1.5rem;
     width: 100%;
     padding: 0 0 1.5rem;
   }
-
+  .album-card-box,
   .blog-card-box {
     width: 100%;
     min-width: 0;
   }
 
-  .blog-card {
+  /* Blog and Album Cards */
+  .blog-card,
+  .album-card {
     width: 100%;
     box-sizing: border-box;
     padding: 1rem;
     margin: 0;
   }
 
-  .blog-card img {
+  .blog-card img,
+  .album-card img {
     width: 100%;
     max-width: 100%;
     height: auto;
