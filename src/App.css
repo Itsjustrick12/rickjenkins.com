@@ -211,6 +211,51 @@
   font-weight: bold;
 }
 
+.image-viewer-background {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* simple buttons for left and right of the image viewer */
+
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 3.5rem;
+  cursor: pointer;
+  padding: 20px;  /* dead space around button */
+  z-index: 10;
+}
+.prev-btn {
+  left: 20px;
+}
+.next-btn {
+  right: 20px;
+}
+
+
+.image-viewer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-viewer img{
+  display: block;
+  max-width: 90vw;
+  max-height: 85vh;
+  object-fit: contain;
+}
+
 .travel-gallery {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
