@@ -1,5 +1,7 @@
 import '../App.css'
-
+import RecentBlogCard from '../components/Blog/RecentBlogCard'
+import RecentAlbumCard from '../components/Travel/RecentAlbumCard'
+import HighlightedPost from '../components/HighlightedPost'
 export function Home(){
   return (
     <div className="page-container">
@@ -63,10 +65,32 @@ export function Home(){
             The website is being built with Vite's flavor of React. Thanks for checking out the site!
           </p>
         </section>
-        <div>
+        <section className="suggested-posts-section">
+          <div className='header-background'>
+              <h2>Suggested Posts</h2>
+            </div>
           
-
-        </div>
+          <div className='suggested-posts-layout'>
+          <div>
+            <div className='header-background'>
+              <h2>My Reccomendation</h2>
+            </div>
+            <HighlightedPost type={"blog"} filename={'FirstPost'}/>
+          </div>
+          <div>
+            <div className='header-background'>
+              <h2>Recent Blog Post</h2>
+            </div>
+            <RecentBlogCard/>
+          </div>
+          <div>
+            <div className='header-background'>
+              <h2>Recent Travel Post</h2>
+            </div>
+            <RecentAlbumCard/>
+          </div>
+          </div>
+        </section>
       </div>
       </div>
     </div> 

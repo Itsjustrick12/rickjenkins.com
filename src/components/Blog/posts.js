@@ -22,3 +22,7 @@ export function getAllSlugs() {
             return dateB.localeCompare(dateA);
         });
 }
+//used for getting the markdown file to the most recent post only
+export function getMostRecentPost(){
+    return getAllSlugs()[0];
+}

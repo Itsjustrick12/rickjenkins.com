@@ -62,3 +62,7 @@ export function getAllAlbumFolderNames() {
             return dateB.localeCompare(dateA)
         })
 }
+// Get the name of the most recent album
+export function GetMostRecentAlbumName(){
+    return getAllAlbumFolderNames()[0]
+}
