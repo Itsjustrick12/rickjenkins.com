@@ -1,6 +1,4 @@
-import freaky from '../assets/freaky.jpg'
 import '../App.css'
-import ListGroup from '../components/ListGroup'
 
 export function Home(){
   return (
@@ -58,10 +56,17 @@ export function Home(){
             of gaining back "free time" that quickly converts to some unproductive habit.
           </p>
           <p>
-            This website is for me, but I hope you see the fruits of my labor as
-            I fall back in love with teaching myself things again. The website is being built with Vite's flavor of React. Thanks for checking out the site!
+            This will be the only segment on the website where I state "AI Bad." There's way too much content about the topic already out there on the internet, so I won't be adding to the pile and wasting my breath on the topic here. This website is for me, but I hope you enjoy the fruits of my labor as
+            I fall back in love with teaching myself things again.
+          </p>
+          <p>
+            The website is being built with Vite's flavor of React. Thanks for checking out the site!
           </p>
         </section>
+        <div>
+          
+
+        </div>
       </div>
       </div>
     </div> 
