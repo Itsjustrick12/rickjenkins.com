@@ -21,10 +21,37 @@ export function Home(){
       }}>
         Hello! I'm Rick Jenkins. This is my personal website I use for updating the people in my circles about my life and sharing about my interests and experiences. Don't expect to find portfolio tier content here. If you're looking for that kind of stuff, go look at my Linkedin or Github!
       </p>
+      
 
       {/* Primary Content divider */}
+
       <div> 
-      
+              <section className="suggested-posts-section">
+          <div className='header-background'>
+              <h2>Suggested Posts</h2>
+            </div>
+          
+          <div className='suggested-posts-layout'>
+          <div>
+            <div className='header-background'>
+              <h2>My Reccomendation</h2>
+            </div>
+            <HighlightedPost type={"blog"} filename={'FirstPost'}/>
+          </div>
+          <div>
+            <div className='header-background'>
+              <h2>Recent Blog Post</h2>
+            </div>
+            <RecentBlogCard/>
+          </div>
+          <div>
+            <div className='header-background'>
+              <h2>Recent Travel Post</h2>
+            </div>
+            <RecentAlbumCard/>
+          </div>
+          </div>
+        </section>
       <div className="section-container">
         {/* Left Section */}
         <section className='content-box-square'>
@@ -64,32 +91,6 @@ export function Home(){
           <p>
             The website is being built with Vite's flavor of React. Thanks for checking out the site!
           </p>
-        </section>
-        <section className="suggested-posts-section">
-          <div className='header-background'>
-              <h2>Suggested Posts</h2>
-            </div>
-          
-          <div className='suggested-posts-layout'>
-          <div>
-            <div className='header-background'>
-              <h2>My Reccomendation</h2>
-            </div>
-            <HighlightedPost type={"blog"} filename={'FirstPost'}/>
-          </div>
-          <div>
-            <div className='header-background'>
-              <h2>Recent Blog Post</h2>
-            </div>
-            <RecentBlogCard/>
-          </div>
-          <div>
-            <div className='header-background'>
-              <h2>Recent Travel Post</h2>
-            </div>
-            <RecentAlbumCard/>
-          </div>
-          </div>
         </section>
       </div>
       </div>
